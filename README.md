@@ -1,5 +1,6 @@
 # dummy-data
 A script I made in Python to generate fake data, to use as dummy data for debugging/testing purposes  
+Uses the packages Faker & Wonderwords
 
 Output Example:  
 Person: "Mr." "John" "Khan"  
