@@ -6,7 +6,7 @@ import random
 def generate_random_username():
     adjective = RandomWord().word(include_parts_of_speech=["adjectives"], word_max_length=8)
     noun = RandomWord().word(include_parts_of_speech=["nouns"], word_max_length=8)
-    if random.choice(["SEPARATE, COMBINE"]) == "COMBINE":
+    if random.choice(["SEPARATE", "COMBINE"]) == "COMBINE":
         username = f"{adjective}{noun.capitalize()}"
     else:
         separators = ["_", "-", "."]
